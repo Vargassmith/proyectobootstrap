@@ -1,0 +1,67 @@
+.text-red {
+    color: red;
+
+}
+
+.text-red:hover {
+    color: aqua;
+    transition: 0.7s;
+}
+
+.navy {
+    background-color: #34427D;
+}
+
+.elegant {
+    font-family:"Playfair Display", serif;
+}
+
+.margincaro {
+    margin-bottom: 10em;
+    font-size: 2em;
+}
+.btn-hombre{
+    background-color: rgb(70, 69, 69);
+    color: white;
+}
+.btn-hombre:hover{
+    background-color: rgb(27, 27, 27);
+    font-size:1.1em;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn-mujer {
+    background-color: pink;
+}
+.btn-mujer:hover{
+    font-size: 1.1em;
+    transition: 0.5s;
+    background-color: palevioletred;
+}
+img {
+    max-width: 100%;
+}
+
+.circulo{
+    color: rgb(37, 37, 37);
+}
+.circulo:hover {
+    transition: 5s;
+    color: black;
+}
+
+.circulo-rosado {
+    color: burlywood ;
+}
+.circulo-rosado:hover {
+    color: rgb(204, 168, 122);
+    transition: 4s;
+}
+
+
+.my-card:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+
+}
